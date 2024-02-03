@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Alex's Projects</title>
+</head>
+<body>
+    <header>
+        <h1>My Projects</h1>
+        <nav>
+            <div class="button-container">
+                <button onclick="window.open('homepage.html')">Home</button>
+                <button onclick="window.open('projects.html')">Projects</button>
+                <button onclick="window.open('contact.html')">Contacts</button>
+            </div>
+        </nav>
+    </header>
+    <section id="projects">
+        <div class="project-card">
+            <img src="https://images.creativemarket.com/0.1.0/ps/2538466/1160/773/m1/fpnw/wm0/unbenannt-1-.jpg?1492027354&s=a6440cbae4a18b28001bf63905ff330a&fmt=webp" height="250" width="400">
+            <h3>Brochure Design</h3>
+            <p>Embrace the artistry of space with our meticulously crafted brochure design for "Innovative Interiors", a venture by Malina Triflod.
+               Elevate your brand's visual presence and showcase the essence of your interior design expertise 
+               through a stunning and informative brochure that captivates and informs.</p>
+               <div class="button-container">
+                <button onclick="window.open('https://youtu.be/GQS7wPujL2k?si=W5xN5KLhNQCPiFXn')">Live Demo</button>
+                <button onclick="window.open('https://github.com/sahitirachiraju')">Github</button>
+               </div>
+        </div>
+        <div class="project-card">
+            <img src="C:\Users\R. SAI SAHITI\Desktop\Screenshot 2024-02-02 140832.png" height="250" width="400">
+            <h3>Brand Logo Design</h3>
+            <p>In the pursuit of encapsulating the essence of Skin Love, 
+               I embarked on crafting a logo that mirrors the brand's commitment to beauty, health, and natural radiance. 
+               The client's vision was clear — a logo that not only represents their skincare products 
+               but also exudes a sense of purity and rejuvenation.</p>
+               <div class="button-container">
+                <button onclick="window.open('https://youtu.be/GQS7wPujL2k?si=W5xN5KLhNQCPiFXn')">Live Demo</button>
+                <button onclick="window.open('https://github.com/sahitirachiraju')">Github</button>
+               </div>
+        </div>
+        <div class="project-card">
+            <img src="https://marketplace.canva.com/EAE4UUjjRTg/1/0/1131w/canva-brown-%26-green-elegant-essence-fashion-issue-magazine-cover-AbiC_RXsVX4.jpg" height="300" width="200">
+            <h3>Magazine Coverpage Design</h3>
+            <p>The cover of the latest magazine issue titled "Essence", encapsulates the enchanting essence of natural and rustic beauty. 
+               The design seamlessly blends vibrant colors, striking visuals, and thoughtful typography to create a captivating visual narrative.</p>
+               <div class="button-container">
+                <button onclick="window.open('https://youtu.be/GQS7wPujL2k?si=W5xN5KLhNQCPiFXn')">Live Demo</button>
+                <button onclick="window.open('https://github.com/sahitirachiraju')">Github</button>
+               </div>
+        </div>
+    </section>
+
+    <div id="project-details-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeProjectDetailsModal">&times;</span>
+            <h2 id="project-name"></h2>
+            <p id="project-description"></p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Alex's Portfolio</p>
+    </footer>
+
+    <script src="projects.js"></script>
+</body>
+</html>

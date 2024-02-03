@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contact Me</title>
+</head>
+<body>
+    <header>
+        <h1>Contact Me</h1>
+        <nav>
+            <div class="button-container">
+                <button onclick="window.open('homepage.html')">Home</button>
+                <button onclick="window.open('projects.html')">Projects</button>
+                <button onclick="window.open('contact.html')">Contacts</button>
+            </div>
+        </nav>
+    </header>
+
+    <section id="contact">
+        <div class="contact-form-container">
+            <form id="contact-form" onsubmit="validateForm(event)">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+        <div class="social-media-icons">
+            <a href="https://github.com/sahitirachiraju" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" height="30" width="30"></a>
+            <a href="https://www.linkedin.com/in/sai-sahiti-rachiraju-8874a6290/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/256/174/174857.png" height="30" width="30"></a>
+            <a href="https://www.instagram.com/sahiti_rachiraju/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" height="30" width="30"></a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Alex's Portfolio</p>
+    </footer>
+
+    <script src="contact.js"></script>
+</body>
+</html>
